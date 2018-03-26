@@ -1,0 +1,65 @@
+body{   /*selects is for body, adjusting font, margin and background */
+	font-size: 100%; /* changes font size for body */
+	margin-left: 1.5em;  /* creates space in left margin */
+	margin-right: 1.5em;  /* creates space in right margin */
+	background-color: #afe0df;
+	width: 1000px;
+	padding: 4em;
+	
+}
+
+/* styles for the header */
+header{   /*type selector */
+	text-align: center;    /*2/21 due to sizing issue */
+	border: 2px solid black;  
+}
+aside{
+	float: right;
+	border: 2px solid black;
+	width: 345px;
+}
+
+main{
+	float: left;
+	width: 645px;
+	
+}
+
+
+h1, h2{    /* multiple selector */
+	color: navy;  /* background color */
+}
+
+h1+img {   /*sibling selector */
+	margin-top: .5em; /* changes margin */
+}
+
+main>p {  /*child selector */
+	font-size: 125%;  /* font size changes of main paragraph */
+	
+}
+Main li {  /*descendant select */
+	font-size: 125%; /* changes the font size of the lists */
+	list-style-type: square; /* bullet points become squares */
+}
+
+.large {   /*class selector */
+	font-size: 200%; /* font for the website link is bigger */
+	
+}
+
+a:link {    /* psuedo selector */
+	color: red; /* when clicking the links, they turn red */
+	
+}
+
+a:hover, a:focus {   /* psuedo selector */
+	color: purple;  /*when hovering over links, they turn purple */
+	
+}
+/* styles for the footer*/
+
+#copyright{  /*id selector */
+		text-align: right; /* moves copyright to right */
+		clear: both;
+}
